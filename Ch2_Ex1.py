@@ -23,10 +23,10 @@ payRate = float
 pay = float
 
 #Need a way to get hours
-payHours = input("Enter number of hours: ")
+payHours = float(input("Enter number of hours: "))
 
 #Need a way to get rate
-payRate = input("Enter current rate: ")
+payRate = float(input("Enter current rate: "))
 
 #Need to calculate pay based on hours x rate
 pay = payHours * payRate
