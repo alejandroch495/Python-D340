@@ -29,6 +29,7 @@ payHours = input()
 payRate = input()
 
 #Need to calculate pay based on hours x rate
+pay = payHours * payRate
 
 #Need to display pay
 #Extra: Want to display to user the "rate" and "hours"
