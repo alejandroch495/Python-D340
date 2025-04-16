@@ -17,7 +17,7 @@ rate => float
 pay => float
 
 """
-
+#Variable defined
 #Need a way to get hours
 #Need a way to get rate
 #Need to calculate pay based on hours x rate
