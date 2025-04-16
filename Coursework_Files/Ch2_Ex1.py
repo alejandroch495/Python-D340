@@ -35,7 +35,17 @@ pay = payHours * payRate
 print("\n Your current pay is =>",pay,'\n')
 
 #Extra: Want to display to user the "rate" and "hours"
+"""
+example text display
 
+"pay info"
+-------------------------------
+hours: #
+rate: #
+-------------------------------
+
+"""
+print('\n \n ')
  
 
 
