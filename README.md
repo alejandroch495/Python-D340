@@ -9,7 +9,7 @@ A location where all coursework for class D340/D040 is located/stored.
 ### Literature Used :book:
  **Title :** <u>Python for Everyone</u>
  **Author(s) :** Cay S. Horstmann 
-**Edition :** 3rd Edition EMEA (August 20, 2019)
+ **Edition :** 3rd Edition EMEA (August 20, 2019)
 
 
 
