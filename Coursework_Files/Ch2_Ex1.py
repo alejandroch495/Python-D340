@@ -53,7 +53,6 @@ rate: #
 print(dividerLine)
 print("Hours:", payHours,"\nRate:", payRate)
 print(dividerLine)
- 
 """
 Output 1
 
@@ -79,7 +78,6 @@ Hours: 25.0
 Rate: 8.0
 -------------------------------
 """
-
  
 
  
