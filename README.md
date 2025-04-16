@@ -1,104 +1,28 @@
-**Example 1: Simple Project**
+****
 
-```markdown
-# My Awesome Project
+### Python D340/D040 :computer:
 
-A brief description of my project.
+A location where all coursework for class D340/D040 is located/stored.
 
-## Features
+****
 
-* A feature list
-* Another feature
+### Literature Used :book:
+ **Title :** <u>Python for Everyone</u>
+ **Author(s) :** Cay S. Horstmann 
+**Edition :** 3rd Edition EMEA (August 20, 2019)
 
-## Installation
 
-1. Clone the repository: `git clone https://github.com/username/project.git`
-2. Install dependencies: `npm install`
 
-## Contributing
+****
+### Chapter 1
 
-Contributions are welcome! Please submit a pull request with your changes.
-```
+`coursework already submitted`
 
-**Example 2: Project with Screenshots**
+### Chapter 2
+* [x] Exercise 1
+* [ ] Exercise 2
+* [ ] Exercise 3
 
-```markdown
-# My Awesome App
+### Chapter 3
 
-A brief description of my app.
-
-## Features
-
-* A feature list
-* Another feature
-
-### Screenshots
-
-[![Screenshot 1](screenshot1.png)](https://example.com/screenshot1)
-[![Screenshot 2](screenshot2.png)](https://example.com/screenshot2)
-
-## Installation
-
-1. Clone the repository: `git clone https://github.com/username/project.git`
-2. Install dependencies: `npm install`
-
-## Contributing
-
-Contributions are welcome! Please submit a pull request with your changes.
-```
-
-**Example 3: Project with Table of Contents**
-
-```markdown
-# My Awesome Project
-
-A brief description of my project.
-
-## Features
-
-* A feature list
-* Another feature
-
-## Installation
-
-1. Clone the repository: `git clone https://github.com/username/project.git`
-2. Install dependencies: `npm install`
-
-### Getting Started
-
-1. Open the project in your IDE of choice.
-2. Run the application using `node index.js`.
-
-## Contributing
-
-Contributions are welcome! Please submit a pull request with your changes.
-
-## License
-
-MIT License
-```
-
-**Example 4: Project with Code Snippet**
-
-```markdown
-# My Awesome Library
-
-A brief description of my library.
-
-## Usage
-
-Here's an example of how to use the library:
-```javascript
-import library from 'my-library';
-
-library.doSomething();
-```
-## Installation
-
-1. Clone the repository: `git clone https://github.com/username/project.git`
-2. Install dependencies: `npm install`
-
-## Contributing
-
-Contributions are welcome! Please submit a pull request with your changes.
-```
+### Chapter 4

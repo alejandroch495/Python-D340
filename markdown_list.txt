@@ -1,0 +1,39 @@
+markdown list
+* Headers:
+    + # Heading 1
+    + ## Heading 2
+    + ### Heading 3
+    + #### Heading 4
+    + ###### Heading 5
+    + ......
+* Emphasis:
+    + *Italic text*
+    + **Bold text**
+    + ***Strong emphasis***
+    + ~~Strikethrough text~~
+* Links:
+    + [Link text](url)
+    + [Link text](url "title")
+* Images:
+    + ![Image alt](url)
+* Lists:
+    + Item 1
+    + Item 2
+    + Item 3
+    + Item 4
+    + *Item 5*
+    + (Item 6) - Bullet point without a number or text
+* Blockquotes:
+    > "Quoted text"
+* Horizontal rule:
+    ~ Horizontal rule
+* Definitions:
+    ~ `inline code blocks` 
+* Superscript and subscript:
+        ^Superscript^ , 
+        ~ _Subscript_ ~
+* Footnotes:
+        
+        ^ reference ^ - [Reference 1][ref]
+
+        [ref] : https://example.com/footnote
