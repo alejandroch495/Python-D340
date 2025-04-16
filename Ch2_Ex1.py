@@ -32,6 +32,8 @@ payRate = input()
 pay = payHours * payRate
 
 #Need to display pay
+print(pay)
+
 #Extra: Want to display to user the "rate" and "hours"
 
  
