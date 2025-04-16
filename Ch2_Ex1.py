@@ -23,12 +23,13 @@ payRate = float
 pay = float
 
 #Need a way to get hours
-
+payHours = input()
 
 #Need a way to get rate
-
+payRate = input()
 
 #Need to calculate pay based on hours x rate
+
 #Need to display pay
 #Extra: Want to display to user the "rate" and "hours"
 
