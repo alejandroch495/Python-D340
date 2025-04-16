@@ -32,7 +32,7 @@ payRate = float(input("Enter current rate: "))
 pay = payHours * payRate
 
 #Need to display pay
-print(pay)
+print("Your current pay is =>",pay)
 
 #Extra: Want to display to user the "rate" and "hours"
 
