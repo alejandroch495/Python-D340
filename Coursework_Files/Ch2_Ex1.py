@@ -10,17 +10,22 @@ Pay: 96.25
 Put at least two outputs (results after you run your code) at the end of your code as a multi-line comment.
 -----------------------------------------------------
 
-Initial scope variables needed
+Initial scope variables needed : [list of known itial variables]
 
 hours => float
 rate => float
 pay => float
 
+In-progress variables : [list of new variables needed]
+
+dividerLine = string
+
 """
 #Variable defined
-payHours = float
-payRate = float
-pay = float
+payHours = float # Hours worked
+payRate = float # Rate paid per hour
+pay = float # The final calculation of hour x rate
+dividerLine = str # Used to create a divider line in the console window to provide a clearer view
 
 #Need a way to get hours
 payHours = float(input("Enter number of hours: "))
@@ -45,7 +50,7 @@ rate: #
 -------------------------------
 
 """
-print('\n \n ')
+print('\n', )
  
 
 
