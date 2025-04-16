@@ -18,8 +18,16 @@ pay => float
 
 """
 #Variable defined
+payHours = float
+payRate = float
+pay = float
+
 #Need a way to get hours
+
+
 #Need a way to get rate
+
+
 #Need to calculate pay based on hours x rate
 #Need to display pay
 #Extra: Want to display to user the "rate" and "hours"
