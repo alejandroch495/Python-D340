@@ -6,3 +6,7 @@
 # Write a program that prompts the user to enter how many pennies they have. Then convert pennies to dollars and cents.
 
 
+# Defining Variables
+pennies = int
+dollars = float
+
