@@ -10,3 +10,6 @@
 pennies = int
 dollars = float
 
+# Get user input on how many pennies
+pennies = int(input("Enter the amount of pennies :"))
+
