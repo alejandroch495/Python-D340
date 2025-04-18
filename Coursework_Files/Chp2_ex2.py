@@ -17,3 +17,6 @@ pennies = int(input("Enter the amount of pennies :"))
 dollars = pennies // 100
 
 
+# Get remaining pennies that don't fint into dollars
+pennies = pennies % 100
+
