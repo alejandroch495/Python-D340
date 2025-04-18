@@ -20,4 +20,4 @@ dollars = pennies // 100
 # Get remaining pennies that don't fint into dollars
 pennies = pennies % 100
 
-print("$",dollars,".%##"%pennies)
+print("$" , str(dollars) + "." + "%02d" % pennies)
