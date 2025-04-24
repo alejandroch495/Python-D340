@@ -20,4 +20,4 @@ else:
     pay = payHours * payRate
 
 #Need to display pay
-print("\n Your current pay is \n",pay)
+print("\n Your current pay is ",round (pay,2))
