@@ -5,8 +5,7 @@ OVERTIME_RATE = 1.5
 payOvertime = float
 pay = float # The final calculation of hour x rate
 
-
-#Need a way to get hours
+#Need a way to get hours and rate
 payHours = float(input("Enter number of hours: "))
 
 #Need a way to get rate
