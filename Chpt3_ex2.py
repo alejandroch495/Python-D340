@@ -1,6 +1,8 @@
 #Variable defined
 payHours = float # Hours worked
 payRate = float # Rate paid per hour
+OVERTIME_RATE = 1.5
+payOvertime = float
 pay = float # The final calculation of hour x rate
 
 
