@@ -1,0 +1,23 @@
+# Testing dictionary values
+
+sizeswindow_sizes ={
+    "default" : [800,600],
+    "1080p" : [1920,1080],
+    "900p" : [1600,900],
+    "720p" : [1280,720],
+    "600p" : [800,600]
+    }
+test_list : list = []
+
+print(f"printing dict :  \n : {sizeswindow_sizes}")
+
+print("-" * 50)
+
+for i in sizeswindow_sizes:
+    test_list.append([sizeswindow_sizes[i]])
+    print(sizeswindow_sizes[i])
+
+print("-" * 50)
+temp = test_list[3]
+temp2 = temp[0]
+print(temp2[0])
