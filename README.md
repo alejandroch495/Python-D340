@@ -24,7 +24,8 @@ A location where all coursework for class D340/D040 is located/stored.
 * [X] Exercise 3
 
 ### Chapter 3
-* [x] Exercise 1
-* [X] Exercise 2
-* [ ] 
+* [x] Exercise 1 (Done in class)
+* [X] Exercise 2 
 ### Chapter 4
+* [ ] Exercise 1
+* [ ] Exercise 2
