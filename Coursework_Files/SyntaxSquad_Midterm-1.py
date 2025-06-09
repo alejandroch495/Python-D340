@@ -80,9 +80,9 @@ def get_orders():
             what the possible selections are.
     """
     
-    SELECTION_OFFSET : int = -1 # Used to offset user selection to match the range within a list. 
-    choices : list = [0,0,0,0,0]
-    is_running : bool = True
+    SELECTION_OFFSET = -1 # Used to offset user selection to match the range within a list. 
+    choices  = [0,0,0,0,0]
+    is_running = True
     selection = None
     
     while is_running:
