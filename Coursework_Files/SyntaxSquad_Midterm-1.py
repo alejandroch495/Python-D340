@@ -12,10 +12,7 @@ def main():
     else:
         print("Thank you! Hope to see you again!")
     
-    
-def print_bill() -> str:
-    for i in range(5):
-        ...
+
     
 #-----------Function----------Split------------------------------------------------------------------------------   
      
@@ -42,7 +39,7 @@ def display_menu() -> str:
 #-----------Function----------Split------------------------------------------------------------------------------   
     
 # Get orders
-def staff_or_student() -> int:
+def staff_or_student() -> int: 
     
     """
     Asks user if they are 'staff' or 'student'. Returns an int value. 0 for student | 1 for staff.
@@ -65,7 +62,7 @@ def staff_or_student() -> int:
             print( "\nnot a valid input. Type 'staff' if you are a staff member or 'student' for a registered student. \n")
             return -1
     except Exception as e:
-        print(e)
+        print(e) 
         
     
 #-----------Function----------Split------------------------------------------------------------------------------   
@@ -129,7 +126,7 @@ def get_orders():
 #-----------Function----------Split------------------------------------------------------------------------------   
 
         
-def compute_bill(choices : list, status : int) -> str:
+def compute_bill(choices : list, status : int) -> tuple[float, float, float, str]:
     """
     
     parameters:
@@ -171,7 +168,7 @@ def print_receipt(  choices:list[int],  status:str,  subtotal:float,  tax:float,
     
     quantity:int = 0 # Amount ordered for specific burger
     burger_selection:str = "" # Burger name
-    burger_price:str = 0 # Price of burger
+    burger_price: float = 0 # Price of burger
     receipt_main_info: str = r"""
     
           
@@ -225,8 +222,8 @@ def print_receipt(  choices:list[int],  status:str,  subtotal:float,  tax:float,
                 quantity_spacer = ""
                 
             burger_price = round(choices[i] * FOOD_PRICES[i],2) # calculates the burger price for the current item 'i' each loop
-            burger_price = f"{burger_price:.2f}" # Converts it to string format to count length of string easier
-            burger_price_len =len(burger_price) # Get length 
+            burger_price_str :str  = f"{burger_price:.2f}" # Converts it to string format to count length of string easier
+            burger_price_len =len(burger_price_str) # Get length 
 
             if burger_price_len == 4:
                 price_spacer = "     "
@@ -238,21 +235,21 @@ def print_receipt(  choices:list[int],  status:str,  subtotal:float,  tax:float,
                 
             burger_selection = BURGERS[i] # Get name of current burger
         
-            print((" " * 12) + f"|   x{quantity}{quantity_spacer} {burger_selection}   ${burger_price}{price_spacer}|")
+            print((" " * 12) + f"|   x{quantity}{quantity_spacer} {burger_selection}   ${burger_price_str}{price_spacer}|")
             # Line above prints the burgers quantity, name, and price
     
     """
     Variables ending in '_len' and '_spacer' are user to calculate distance from end of paper
     """
     
-    subtotal: str = f"subtotal = ${subtotal :.2f}"
-    tax: str = f"tax      = ${tax:.2f}"
-    total: str = f"total    = ${total :.2f}"
+    subtotal_str: str = f"subtotal = ${subtotal :.2f}"
+    tax_str: str = f"tax      = ${tax:.2f}"
+    total_str: str = f"total    = ${total :.2f}"
     status_out = f"status   = {status_out}"
     
-    subtotal_len = len(subtotal)
-    tax_len = len(tax)
-    total_len = len(total)
+    subtotal_len = len(subtotal_str)
+    tax_len = len(tax_str)
+    total_len = len(total_str)
     status_out_len = len(status_out)
     
     subtotal_spacer = 21 - subtotal_len
@@ -262,9 +259,9 @@ def print_receipt(  choices:list[int],  status:str,  subtotal:float,  tax:float,
     
     print(f"""            |       ---------------------------       |
             |                    {status_out}{" " * status_out_spacer}|
-            |                    {subtotal}{" " * subtotal_spacer}|
-            |                    {tax}{" " * tax_spacer}|
-            |                    {total}{" " * total_spacer}|""")
+            |                    {subtotal_str}{" " * subtotal_spacer}|
+            |                    {tax_str}{" " * tax_spacer}|
+            |                    {total_str}{" " * total_spacer}|""")
     print(receipt_end_info)
           
         
