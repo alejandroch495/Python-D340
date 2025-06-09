@@ -248,7 +248,7 @@ def print_receipt(  choices:list[int],  status:str,  subtotal:float,  tax:float,
     subtotal: str = f"subtotal = ${subtotal :.2f}"
     tax: str = f"tax      = ${tax:.2f}"
     total: str = f"total    = ${total :.2f}"
-    status_out = f"Status   = {status_out}"
+    status_out = f"status   = {status_out}"
     
     subtotal_len = len(subtotal)
     tax_len = len(tax)
