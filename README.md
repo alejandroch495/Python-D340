@@ -36,6 +36,7 @@ A location where all coursework for class D340/D040 is located/stored.
 * [x] Mid Term Code 
 ### Chapter 6
 * [x] Exercise 1
-* [ ] Exercise 2
+* [x] Exercise 2
 * [ ] Exercise 3
+* [x] Exercise 5
 
