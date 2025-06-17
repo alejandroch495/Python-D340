@@ -37,6 +37,7 @@ A location where all coursework for class D340/D040 is located/stored.
 ### Chapter 6
 * [x] Exercise 1
 * [x] Exercise 2
-* [ ] Exercise 3
+* [ ] Exercise 3 (undated/ copy assignment?)
+* [ ] Exercise 4 (Extra credit)
 * [x] Exercise 5
 
