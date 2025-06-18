@@ -39,19 +39,25 @@ def get_user_company_name():
     If incorrect company name is entered twice it will output a list of options availible'''
     global attempts
     print()
+
     user_input = input('Enter Company Name : ').strip().lower()
+
     formated_user_input = format_input(user_input)
+
     if formated_user_input in COMPANYLIST:
         return formated_user_input
+    
     if formated_user_input not in COMPANYLIST:
         attempts += 1
         print(f"'{formated_user_input}' is not a company in the list ")
-        print(attempts)
+
         if attempts > 1:
             attempts = 0
             print("Here is the list of companies.")
+
             for company in COMPANYLIST:
                 print(f"{company }, " ,end="")
+
         get_user_company_name()
 
 
@@ -133,12 +139,53 @@ def payProcess():
 
 
 def main():
-    payProcess()
+    while True:
+        payProcess()
 
 
 
-    
+
 if __name__ == "__main__":
     main()
 
 
+"""
+Output
+
+Enter Company Name : w
+'W' is not a company in the list 
+
+Enter Company Name : tree
+'Tree' is not a company in the list 
+Here is the list of companies.
+Apple, Microsoft, Google, Amazon, Uber, Facebook, 
+Enter Company Name : uber
+Enter the hours worked: 40
+Enter the rate : 1
+
+        Company : None
+        ------------------------------
+        hours : 40.0
+        rate  : 1.0
+        
+        The total pay is $40.00
+        ------------------------------
+        Document #1779
+
+
+Enter Company Name : company
+'Company' is not a company in the list 
+
+Enter Company Name : facebook
+Enter the hours worked: 80
+Enter the rate : 2
+
+        Company : None
+        ------------------------------
+        hours : 80.0
+        rate  : 2.0
+        
+        The total pay is $200.00      
+        ------------------------------
+        Document #1479
+"""
