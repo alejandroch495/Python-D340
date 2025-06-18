@@ -9,14 +9,14 @@ error_lines: list[str] = []
 
 def main():
     "Main"
-    file = findfile() 
-    getErrors(file)
-    print(f"Total lines = {line_count}")
-    for line in error_lines:
+    file = findfile() # find file
+    getErrors(file) # pull errors
+    print(f"Total lines = {line_count}") # print total lines
+    for line in error_lines: # print any errors found
         print(line)
-    print(f"errorLines count = {error_count}")
-    exportErrors(error_lines)
-    file.close()
+    print(f"errorLines count = {error_count}") # print total errors found
+    exportErrors(error_lines)   # export into file
+    file.close()    # close file found
 
 def get_user_input() -> str:
     "Used to get user input and remove trailing spaces"
