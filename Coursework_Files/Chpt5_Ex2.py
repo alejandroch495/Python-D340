@@ -22,6 +22,7 @@ def get_input():
         print("Enter a valid number value.")
         print(e)
 
+
 def compute_pay(hours, rate) -> float: # This function calculates the pay via the hours, rate variables passed thru
     if hours > 40:
         hours_regular = 40
@@ -34,8 +35,10 @@ def compute_pay(hours, rate) -> float: # This function calculates the pay via th
         pay = round(pay,2)
     return pay # Return the pay results
 
+
 def print_output(pay) -> None:# Display a message to user of total pay
-    print(f"""          The total pay is ${pay:.2f}
+    print(f"""
+        The total pay is ${pay:.2f}
 """)
 
 def main():
