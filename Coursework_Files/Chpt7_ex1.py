@@ -63,11 +63,17 @@ if __name__ == "__main__":
 
     """
     Output
-enter the error log file name : ErrorLog.txt
+enter the error log file name : error.log
+'error.log' does not exist.
+ Possible spelling error?
+enter the error log file name : error.txt
+'error.txt' does not exist.
+ Possible spelling error?
+enter the error log file name : errorlog.txt
 Total lines = 108
 [Sun Mar  7 21:16:17 2018] [error] [client 24.70.56.49] File does not exist: /home/httpd/twiki/view/Main/WebHome
 [Mon Mar  8 07:27:36 2018] [error] [client 61.9.4.61] File does not exist: /usr/local/apache/htdocs/_vti_bin/owssvr.dll
 [Mon Mar  8 07:27:37 2018] [error] [client 61.9.4.61] File does not exist: /usr/local/apache/htdocs/MSOffice/cltreq.asp
 [Thu Mar 11 02:27:34 2018] [error] [client 200.174.151.3] File does not exist: /usr/local/mailman/archives/public/cipg/2018-november.txt
-[Thu Mar 11 07:39:29 2018] [error] [client 140.113.179.131] File does not exist: /usr/local/apache/htdocs/M83A
-errorLines count = 5"""
+[Thu Mar 11 07:39:29 2018]
+"""
